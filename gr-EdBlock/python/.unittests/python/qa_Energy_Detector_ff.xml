@@ -1,0 +1,16 @@
+<testsuite errors="0" failures="1" name="unittest.suite.TestSuite" tests="1" time="0.002">
+  <testcase classname="__main__.qa_Energy_Detector_ff" name="test_001_t" time="0.0021">
+    <failure type="exceptions.AssertionError">0.82 != (1.7749011516571045,)
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "qa_Energy_Detector_ff.py", line 46, in test_001_t
+    self.assertEqual(expected_result, result_data)
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+    </failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
